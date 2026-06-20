@@ -48,4 +48,15 @@ A pointer list — each repo is independent and remains its own source of truth.
 
 ---
 
+## 🧰 Tools I Use
+
+The stack I actually build with — one folder per cloud with the real pipeline.
+
+- ☁️ **[GCP](./tools-i-use/gcp/)** — Pub/Sub → Cloud Run → BigQuery · dbt · Vertex AI · 7 services live
+- 🟧 **[AWS](./tools-i-use/aws/)** — Bedrock RAG · S3 + DynamoDB · boto3 · 3-cloud reconcile
+- 🔷 **[Azure](./tools-i-use/azure/)** — Fabric + OneLake · dbt-fabric · TMDL · Power BI Direct Lake · DAX
+- 🧰 **[Full matchable stack](./tools-i-use/)** — every tool grouped (data · AI · ML · RAG · eval · infra · BI · automation)
+
+---
+
 *This repo is an index — a stable place to point agents at the public, filtered version of who I am and what I've built.*
